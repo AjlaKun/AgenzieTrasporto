@@ -419,7 +419,7 @@ namespace AgenzieTrasporto
             biglietteria.CreaViaggio(1,"MILANO - ROMA", 50.5M, new  DateTime (2022,08,04, 10,20,01), biglietteria.agenzie[0].nome,agenziaTerrestre.mezziTerrestre[0]); 
             biglietteria.CreaViaggio(2,"GENOVA - TUNIS", (300M), new DateTime(2022,09,10, 12,10,02), biglietteria.agenzie[1].nome, agenziaMarritimo.mezziMarittimi[0]);
             biglietteria.CreaViaggio(3,"MILANO - NEWYORK", 500M, new DateTime(2022,04,25,01,30,01), biglietteria.agenzie[2].nome, agenziaAereo.mezziAereo[0]);
-
+            //cercare il viaggio per data 
 
             #region POSSIBILITA DI CERCARE VIAGGI E VEDERE TUTTI VIAGGI DISPONIBILI CON I PREZZI
             //utente sta faccendo la ricerca e fa vedere tutti i viaggi disponibili
